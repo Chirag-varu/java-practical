@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Simple Calculator</h1>
+        <form action ="MyServlet">
+            <div>
+                <label for = "num1">Enter Number 1: </label>
+                <input type="number" name="num1" id="num1"/>
+            </div>
+            
+            <div>
+                <label for = "num2">Enter Number 2: </label>
+                <input type="number" name="num2" id="num2"/>
+            </div>            
+           
+            <div>
+                <p>Select Operator</p>
+                <label for="operator1">+</label>
+                <input type="radio" name="operator" id="operator1" value="+"/>
+                <label for="operator2">-</label>
+                <input type="radio" name="operator" id="operator2" value="-"/>
+                <label for="operator3">/</label>
+                <input type="radio" name="operator" id="operator3" value="/"/>
+                <label for="operator4">*</label>
+                <input type="radio" name="operator" id="operator4" value="*"/>
+           </div>
+            
+            <button type ="submit" name="submit">Calculate</button>
+        </form>
+    </body>
+</html>
