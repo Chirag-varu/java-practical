@@ -28,8 +28,8 @@ public class MyServlet extends HttpServlet {
             out.println("    <title>Empty Page</title>");
             out.println("</head>");
             out.println("<body>");
-            String username = "Aksh30";
-            String password = "hello world";  
+            String username = "any2244";
+            String password = "Any@2244";  
             String enteredUsername = request.getParameter("username");
             String enteredPassword = request.getParameter("password");
             if(username.equals(enteredUsername) && password.equals(enteredPassword))

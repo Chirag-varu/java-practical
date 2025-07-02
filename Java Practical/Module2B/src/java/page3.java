@@ -47,7 +47,7 @@ public class page3 extends HttpServlet {
                 if(ck[i].getName().equals("visit")){
                    int n = Integer.parseInt(ck[i].getValue());
                    out.println("<br><br>Visit no. = "+(n+1));
-                   ck[i] = new Cookie("<br>visit",(n+1)+"");   
+                   ck[i] = new Cookie("visit",(n+1)+"");   
                    response.addCookie(ck[i]);
                     
                 }else{
